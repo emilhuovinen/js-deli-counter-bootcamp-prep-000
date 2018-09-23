@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
 let  i = 0;
   while (i < katzDeliLine.length) {
     
-  if (firstInLine === 0){
+  if (katzDeliLine.length === 0){
  return "There is nobody waiting to be served!"
   
 } else {
