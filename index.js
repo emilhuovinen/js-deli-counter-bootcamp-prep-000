@@ -1,5 +1,5 @@
 
 function takeANumber(number, name) {
-
-  return `Welcome, ${name}. You are number ${number} in line.`
+let currentLine = number + 1;
+  return `Welcome, ${name}. You are number ${currentLine} in line.`
 }
