@@ -28,12 +28,13 @@ function currentLine(katzDeli) {
   let line = [];
   
   while (i < katzDeli.length) {
-    line.push(`${i + 1}.` + ``)
+    line.push(`${i + 1}. ` + `${katzDeli[i]},`)
+    i++
     
     if (katzDeli === 0) {
       return `The line is currently empty.`
     } else {
-      return (`The line `)
+      return (`The line is currently: ` + `${line}` )
     }
   }
   
