@@ -10,7 +10,7 @@ return (`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
 }
 
 function nowServing(katzDeliLine) {
- let firstInLine = katzDeli[0];
+ i = i + 1;
  
  if (firstInLine === 0){
  return "There is nobody waiting to be served!"
