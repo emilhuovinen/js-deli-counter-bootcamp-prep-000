@@ -2,6 +2,6 @@
 function takeANumber(number, name) {
 katzDeliLine.push(`${name}`);
 
-return `Welcome`
+return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 
 }
