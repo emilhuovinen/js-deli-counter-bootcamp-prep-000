@@ -17,4 +17,5 @@ function nowServing(katzDeliLine) {
   
 } else {
   return katzDeli[0]
+  
 }}
