@@ -9,15 +9,15 @@ return (`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
 
 }
 
-function nowServing(katzDeliLine) {
+function nowServing(katzDeli) {
 let  i = 0;
-  while (i < katzDeliLine.length) {
+  while (i < katzDeli.length) {
     
-  if (katzDeliLine.length === 0){
+  if (katzDeli.length === 0){
  return "There is nobody waiting to be served!"
   
 } else {
-  return `Currently serving ${katzDeliLine.shift()}`
+  return `Currently serving ${katzDeli.shift()}`
   }
  
 }
