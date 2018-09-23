@@ -28,7 +28,7 @@ function currentLine(katzDeli) {
   let line = [];
   
   while (i < katzDeli.length) {
-    line.push(` ` + ${i+1}+`. ` + katzDeli[i])
+    line.push(``+ i+}+`. ` + katzDeli[i])
     i++
     
     if (katzDeli === 0) {
