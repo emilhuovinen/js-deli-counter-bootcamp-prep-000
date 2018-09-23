@@ -26,6 +26,14 @@ let  i = 0;
 function currentLine(katzDeli) {
   let i = 0;
   
-  return katzDeli[i];
+  while (i < katzDeli) {
+    i++
+    
+    if (katzDeli === 0) {
+      return `The line is currently empty.`
+    } else {
+      return (`The line `)
+    }
+  }
   
 }
